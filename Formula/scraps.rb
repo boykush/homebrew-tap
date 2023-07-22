@@ -5,10 +5,8 @@ class Scraps < Formula
   sha256 "4a1bed522c541bdd1bdba3f7336185f51069495e98cbd08e375cf7d6e77b3805"
   license "MIT"
 
-  depends_on "rust" => :build
-
   def install
-    system "cargo", "install", "scraps", *std_cargo_args
+    bin.install "scraps"
   end
 
   # 必要ならば、他のインストール手順や設定を追加
