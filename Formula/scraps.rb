@@ -8,7 +8,7 @@ class Scraps < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "install", "scraps"
   end
 
   # 必要ならば、他のインストール手順や設定を追加
