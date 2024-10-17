@@ -1,8 +1,8 @@
 class Scraps < Formula
   desc "A static site generator that builds a wiki from a set of markdown files. Inspired by https://scrapbox.io/."
   homepage "https://boykush.github.io/scraps"
-  url "https://github.com/boykush/scraps/releases/download/v0.14.0/scraps-aarch64-apple-darwin.tar.gz"
-  sha256 "67d5baa0f646f4054fe25ac3a065659a151e5fbd1c81998dab3e9b0d91558d3e"
+  url "https://github.com/boykush/scraps/releases/download/v0.14.1/scraps-aarch64-apple-darwin.tar.gz"
+  sha256 "ea1bf0afa85590f25821387d683c55dfb36f7dacc53a5318b22fdf5ce1242b68"
   license "MIT"
 
   def install
