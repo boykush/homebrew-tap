@@ -2,27 +2,27 @@ class Scraps < Formula
   desc "A static site generator that builds a wiki from markdown files"
   homepage "https://boykush.github.io/scraps"
   license "MIT"
-  version "2.3.1"
+  version "2.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/boykush/scraps/releases/download/v2.3.1/scraps-aarch64-apple-darwin.tar.gz"
-      sha256 "acf8b70a77b7e813490c41b190b06e21930e3b663433ed18584aba9459035b58"
+      url "https://github.com/boykush/scraps/releases/download/v2.4.0/scraps-aarch64-apple-darwin.tar.gz"
+      sha256 "641ff581e2541ee78a33bd65c2644edb6b9a593bbc883bdc364cf69af2cf8b1c"
     end
     on_intel do
-      url "https://github.com/boykush/scraps/releases/download/v2.3.1/scraps-x86_64-apple-darwin.tar.gz"
-      sha256 "cd59e1348faefba92fe5cbb890207c8d5b5d0619ee30f8b21b8ecab69a3db95e"
+      url "https://github.com/boykush/scraps/releases/download/v2.4.0/scraps-x86_64-apple-darwin.tar.gz"
+      sha256 "22ad7a7c94d44de8c09a867b22ec786b75e6bfd9ba31874c2a13af50e2787de6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/boykush/scraps/releases/download/v2.3.1/scraps-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "00b366f14dc82ce5ac89f0514ae05e7ce73a0380ab74f59b06de9ab581bd4f24"
+      url "https://github.com/boykush/scraps/releases/download/v2.4.0/scraps-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "282664f7c3916885439552cc49f4a183154c4630f1c04969a5e2bae7bbb7e8d5"
     end
     on_intel do
-      url "https://github.com/boykush/scraps/releases/download/v2.3.1/scraps-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3e9e2d20d6df74c06e6ffd2203966293d160b4d546a521ddb20c5c92b3837869"
+      url "https://github.com/boykush/scraps/releases/download/v2.4.0/scraps-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "660b6bff15b236e5fae0f14699b15d366992c675a6f821b14673a17ad2127234"
     end
   end
 
